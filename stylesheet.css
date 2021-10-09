@@ -1,0 +1,4 @@
+.container-card-plan {
+  display: flex;
+  flex-direction: row;
+}
