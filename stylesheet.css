@@ -1,3 +1,8 @@
+.container-card {
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
 .container-card-plan {
   display: flex;
   flex-direction: row;
