@@ -20,7 +20,7 @@ main {
   border-radius: 15px;
   background-color: #fff;
   box-sizing: border-box;
-  width: 25%;
+  width: 30em;
 }
 
 .banner-image {
@@ -58,6 +58,62 @@ main {
 }
 
 .container-card-plan {
+  border-radius: 15px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px 50px;
+}
+
+.container-card-plan a {
+  background-color: none;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container-card-plan a:hover {
+  background-color: none;
+  text-decoration: none;
+  color: hsl(245, 75%, 60%);
+}
+
+.container-card-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-card-buttons button:first-child {
+  border-radius: 10px;
+  margin: 10px 50px;
+  padding: 15px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container-card-buttons button:first-child:hover {
+  background-color: hsl(245, 75%, 60%);
+}
+
+.container-card-buttons button:nth-child(2) {
+  margin: 10px 50px 30px 50px;
+  padding: 15px;
+  background: none; 
+  color: hsl(245, 75%, 60%);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container-card-buttons button:nth-child(2):hover {
+  color: hsl(223, 47%, 23%);
 }
