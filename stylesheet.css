@@ -45,6 +45,23 @@ main {
   padding: 0 80px 20px 80px;
 }
 
+.container-card-plan {
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px 50px;
+}
+
+.container-card-plan div:nth-child(2) {
+  padding: 0 120px 0 15px;
+}
+
+.container-card-plan div:nth-child(3) {
+  padding-top: 15px;
+}
+
 .container-card-plan-description h2 {
   font-weight: 700;
   font-size: 18px;
@@ -55,16 +72,6 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: hsl(224, 23%, 55%);
-}
-
-.container-card-plan {
-  border-radius: 15px;
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: hsl(225, 100%, 98%);
-  margin: 10px 50px;
 }
 
 .container-card-plan a {
