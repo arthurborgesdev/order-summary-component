@@ -9,18 +9,20 @@ main {
   background-repeat: no-repeat;
   background-color: #e0e8ff;
   background-size: contain;
-  height: 100vh;
+  min-height: 100%;
   width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .container-card {
   border-radius: 15px;
   background-color: #fff;
   box-sizing: border-box;
-  width: 30em;
+  width: 100%;
+  max-width: 30rem;
 }
 
 .banner-image {
@@ -55,11 +57,12 @@ main {
 }
 
 .container-card-plan div:nth-child(2) {
-  padding: 0 120px 0 15px;
+  padding: 0 15px;
 }
 
 .container-card-plan div:nth-child(3) {
   padding-top: 15px;
+  padding-left: 15rem;
 }
 
 .container-card-plan-description h2 {
@@ -123,4 +126,38 @@ main {
 
 .container-card-buttons button:nth-child(2):hover {
   color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    background: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    background-size: contain;
+    min-height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-card-info p:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 0 20px 20px 20px;
+  }
+
+  .container-card-plan {
+    margin: 10px 20px;
+  }
+
+  .container-card-buttons button:first-child {
+    margin: 10px 20px;
+  }
+
+  .container-card-buttons button:nth-child(2) {
+    margin: 10px 20px 30px 20px;
+  }
 }
