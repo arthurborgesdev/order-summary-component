@@ -52,17 +52,22 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: hsl(225, 100%, 98%);
   margin: 10px 50px;
 }
 
-.container-card-plan div:nth-child(2) {
+.icon-and-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-card-plan-description {
   padding: 0 15px;
 }
 
-.container-card-plan div:nth-child(3) {
+.change-link {
   padding-top: 15px;
-  padding-left: 15rem;
 }
 
 .container-card-plan-description h2 {
