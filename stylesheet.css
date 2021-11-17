@@ -112,6 +112,7 @@ main {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  box-shadow: 0 15px 15px hsl(224, 23%, 80%);
 }
 
 .container-card-buttons button:first-child:hover {
