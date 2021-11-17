@@ -2,6 +2,54 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
+Live preview: https://arthurborges.dev/order-summary-component
+
+
+## Built With
+
+- HTML
+- CSS
+- FlexBox
+- VSCode
+- Ubuntu 20.04
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- A GitHub account signed in in your terminal
+
+
+### Setup
+
+- `git clone https://github.com/arthurborgesdev/order-summary-component.git`
+- `cd order-summary-component`
+
+### Usage
+
+- `npx http-server`
+- Open `http://127.0.0.1:8080` in a web browser
+
+## Author
+
+👤 **Arthur Borges**
+
+- GitHub: [@arthuborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
+- LinkedIn: [Arthur Borges](https://linkedin.com/in/arthurmoises)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+# Guidelines from Frontend mentor:
+
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
